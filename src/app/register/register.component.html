@@ -1,0 +1,24 @@
+<div class="image">
+
+<h1>Welcome to Registration page!</h1>
+<h4>please fill following details to register with us.</h4>
+<div *ngIf="!validated">
+    Enter User Name <input type='text' [(ngModel)]='userdetails.username'/> <br/>
+    <hr>
+    Enter Password <input type='password' [(ngModel)]='userdetails.password'/>  <br/><br/>
+  Hello  {{userdetails.username}}  welcome to salesapp
+    <br/>
+    
+    
+    <button (click)='register()' class="button">register</button>
+    <button (click)='login()' class="button">login</button>
+    
+    </div>
+
+</div>
+<div class="wrapper">
+    <nav>
+        <a routerLink="/type3" routerLinkActive="active">Products</a>
+    </nav>
+
+</div>

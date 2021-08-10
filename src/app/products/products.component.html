@@ -1,0 +1,14 @@
+<h3>Welcome to cart of salesapp</h3><br/>
+<ul class="heroes" >
+        <li *ngFor="let p of prod"  >
+           {{p.id}}
+            {{p.prodname}}
+        </li>
+    
+    </ul>
+
+    <div>
+        <nav>
+            <a routerLink="/paymentmethods" routerLinkActive="active">Make Payment</a>
+        </nav>
+    </div>

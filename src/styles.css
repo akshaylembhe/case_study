@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+}
+h1{
+    color: dodgerblue;
+    font-size: 2.5rem;
+}
+
+h2,h3{
+    color: rgb(12, 12, 12);
+    font-weight: lighter;
+}
+p {
+    color: rgb(243, 151, 12);
+    font-weight: lighter;
+}
+
+body{
+    padding: .5rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f5eee2;
+    
+}
+
+body , input {
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: '1px solid green'  
+
+}
+a{
+    cursor: pointer;
+}
+button {
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+nav a{
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: honeydew;
+    color: orangered;
+    border-radius: 4px;
+}
+nav a:hover{
+color: white;
+background-color: aqua;
+
+
+}
+nav a:active{
+    background-color: black;
+    color: white;
+
+}

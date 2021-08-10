@@ -1,0 +1,40 @@
+
+<body>
+    <div>
+        <h2>Various Payment Gateways</h2>
+        <table>
+            <tr>
+                <td class="td">
+                    Online banking
+                </td>
+                <td>Debit card</td>
+            </tr>
+            <tr>
+                <td class="td">
+                   G-Pay 
+                </td>
+                <td>
+                    BFL-Pay
+                </td>
+            </tr>
+            <tr>
+                <td class="td">
+                    phone pay
+                </td>
+                <td>
+                    cash on delivery
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+
+please select Payment Option:
+<select #service_selected (change)='onselect(service_selected.value)'>
+     <option *ngFor="let c of service" [value]="c.paymethod">
+            {{c.paymethod}}
+           
+     </option>
+     
+</select>
